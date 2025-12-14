@@ -3,11 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
+import csv  # <--- Required for CSV support
 import time
 import re
 import warnings
 import requests 
-import html  # <--- NEW IMPORT: Fixes the &gt; issue
+import html 
 from bs4 import BeautifulSoup 
 
 # ============================================================
@@ -20,7 +21,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 # ============================================================
 ARCHIVE_URL = "https://kmt.vander-lingen.nl/archive"
 BASE_DOMAIN = "https://kmt.vander-lingen.nl" 
-MAX_PAPERS_LIMIT = 4     # Set to 0 to scrape ALL papers
+MAX_PAPERS_LIMIT = 1     # Set to 0 to scrape ALL papers
 
 # ============================================================
 # SETUP
@@ -42,17 +43,16 @@ def get_driver():
     return webdriver.Chrome(options=options)
 
 # ============================================================
-# HELPER: EXTRACT XML DATA (REGEX MODE + UNESCAPE FIX)
+# HELPER: EXTRACT XML DATA
 # ============================================================
 def parse_xml_regex(xml_text):
     result = {'reaction_smiles': None, 'molecules': []}
     try:
         # 1. Reaction SMILES
-        # We unescape to turn "&gt;" back into ">"
         rxn_match = re.search(r'<reactionSmiles>(.*?)</reactionSmiles>', xml_text, re.DOTALL)
         if rxn_match:
             raw_smiles = rxn_match.group(1).strip()
-            result['reaction_smiles'] = html.unescape(raw_smiles) # <--- FIXED HERE
+            result['reaction_smiles'] = html.unescape(raw_smiles)
 
         # 2. Molecules
         molecule_blocks = re.findall(r'<molecule>(.*?)</molecule>', xml_text, re.DOTALL)
@@ -60,7 +60,6 @@ def parse_xml_regex(xml_text):
             def get_tag_val(tag, text):
                 match = re.search(f'<{tag}>(.*?)</{tag}>', text, re.DOTALL)
                 if match:
-                    # Clean up every field just in case
                     return html.unescape(match.group(1).strip())
                 return None
 
@@ -94,13 +93,9 @@ def scan_archive_page(driver):
                 parent = elem.find_element(By.XPATH, "./..")
                 full_text = parent.text
                 
-                year_match = re.search(r'\b(20[0-2][0-9])\b', full_text)
-                year = year_match.group(1) if year_match else "Unknown"
-
                 reaction_links.append({
                     "start_url": url,
-                    "title_text": full_text,
-                    "year": year
+                    "title_text": full_text
                 })
             except:
                 continue
@@ -109,22 +104,18 @@ def scan_archive_page(driver):
         
     return reaction_links
 
-# ============================================================
-# LEVEL 2 & 3: HYBRID SCRAPE
-# ============================================================
+
 def scrape_single_reaction(driver, link_data, current_index, total_count):
     current_list_url = link_data['start_url']
     
     paper_data = {
-        'source_title': link_data['title_text'],
-        'year': link_data['year'],
+        # 'source_title' and 'year' are REMOVED from output
         'doi': None,
         'details_scanned': 0,
         'reactions': [],
         'error': None
     }
-    
-    # Create Session
+
     session = requests.Session()
     selenium_cookies = driver.get_cookies()
     for cookie in selenium_cookies:
@@ -177,7 +168,7 @@ def scrape_single_reaction(driver, link_data, current_index, total_count):
             except:
                 pass
 
-            # 4. Requests for Details (FAST)
+            # 4. Requests for Details
             print("-"*50)
             print(f"   [Page {page_num}] Found {len(detail_urls)} details. Processing...")
             
@@ -201,8 +192,6 @@ def scrape_single_reaction(driver, link_data, current_index, total_count):
                         xml_href = xml_link_tag.get('href')
                         if xml_href.startswith("/"):
                             xml_href = BASE_DOMAIN + xml_href
-                        
-                        reaction_entry['has_xml'] = True
                         
                         # Download XML
                         xml_resp = session.get(xml_href, timeout=5)
@@ -236,8 +225,8 @@ def scrape_single_reaction(driver, link_data, current_index, total_count):
 # ============================================================
 def main():
     print("="*60)
-    print("STARTING HYBRID SEQUENTIAL PARSER")
-    print("Strategy: Selenium for Lists -> Requests for Details")
+    print("CRD - Web Scraper")
+    print("Submitted by: Samantha Singcol & Luke Harvey T, Umpad")
     print("="*60)
     
     driver = get_driver()
@@ -259,11 +248,55 @@ def main():
             data = scrape_single_reaction(driver, link, index, len(links))
             results.append(data)
 
-        output_filename = 'kmt_output_Luke.json'
-        with open(output_filename, 'w', encoding='utf-8') as f:
+        # --- 1. SAVE JSON ---
+        json_filename = 'kmt_output_sam&luke.json'
+        with open(json_filename, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
+        print(f"\n[SUCCESS] JSON saved to {json_filename}")
+
+        # --- 2. SAVE CSV  ---
+        csv_filename = 'kmt_output_sam&luke.csv'
+        print(f"Generating Report-Style CSV ({csv_filename})...")
+        
+        with open(csv_filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
             
-        print(f"\nDone! Saved parsed data to {output_filename}")
+            for paper in results:
+                doi = paper.get('doi', 'N/A')
+                reactions = paper.get('reactions', [])
+                
+                for rxn in reactions:
+                    # -- HEADER INFO (Above the table) --
+                    url = rxn.get('details_url', '')
+                    overall_smiles = rxn.get('overall_reaction_smiles', '')
+                    
+                    writer.writerow(["DOI:", doi])
+                    writer.writerow(["Details URL:", url])
+                    writer.writerow(["Overall Reaction SMILES:", overall_smiles])
+                    
+                    # -- THE TABLE (Rows of roles, Cols of SMILES) --
+                    # Header row for the sub-table
+                    writer.writerow(["Role", "Name", "SMILES", "Ratio"])
+                    
+                    # Data rows
+                    molecules = rxn.get('molecules', [])
+                    if molecules:
+                        for mol in molecules:
+                            writer.writerow([
+                                mol.get('role', ''),
+                                mol.get('name', ''),
+                                mol.get('smiles', ''),
+                                mol.get('ratio', '')
+                            ])
+                    else:
+                        writer.writerow(["No molecules found in XML", "", "", ""])
+                    
+                    # Spacer between different URL tables
+                    writer.writerow([]) 
+                    writer.writerow(["=" * 50])
+                    writer.writerow([]) 
+
+        print(f"[SUCCESS] CSV saved to {csv_filename}")
 
     finally:
         driver.quit()

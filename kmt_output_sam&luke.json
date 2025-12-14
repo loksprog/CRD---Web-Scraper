@@ -1,0 +1,1453 @@
+[
+  {
+    "doi": "10.1021/jacsau.4c01276",
+    "details_scanned": 33,
+    "reactions": [
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/4c6dc9f75848c01b386e4356ef4f8019",
+        "overall_reaction_smiles": "C(C)(=O)OC\\C=C(/C)\\CC\\C=C(/C)\\CCC=C(C)C>ClCCl.C(C)(C)(C)OO.[Se](=O)=O.[O-]S(=O)(=S)[O-].[Na+].[Na+]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "ZGIGZINMAOQWLX-NCZFFCEISA-N",
+            "smiles": "C(C)(=O)OC\\C=C(/C)\\CC\\C=C(/C)\\CCC=C(C)C",
+            "name": "(2E,6E)-Farnesyl Acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "31.1"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "CIHOLLKRGTVIJN-UHFFFAOYSA-N",
+            "smiles": "C(C)(C)(C)OO",
+            "name": "tert-butyl hydroperoxide",
+            "ratio": "3.0"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "JPJALAQPGMAKDF-UHFFFAOYSA-N",
+            "smiles": "[Se](=O)=O",
+            "name": "selenium dioxide",
+            "ratio": "0.3"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "AKHNMLFCWUSKQB-UHFFFAOYSA-L",
+            "smiles": "[O-]S(=O)(=S)[O-].[Na+].[Na+]",
+            "name": "sodium thiosulfate",
+            "ratio": "6.4"
+          },
+          {
+            "role": "product",
+            "inchiKey": "LRIUGFZTYQJCLE-JDDBBKIWSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+            "name": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/bdd4a1e5f509dbac291ee6f77bf3a955",
+        "overall_reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C>CO[H].[Na+].[BH4-]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "LRIUGFZTYQJCLE-JDDBBKIWSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\C=O)/C)/C)/C",
+            "name": "(2E,6E,10E)-12-oxo-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+            "smiles": "CO[H]",
+            "name": "methanol",
+            "ratio": "49.0"
+          },
+          {
+            "role": "reducing agent",
+            "inchiKey": "YOQDYZUWIQVZSF-UHFFFAOYSA-N",
+            "smiles": "[Na+].[BH4-]",
+            "name": "sodium borohydride",
+            "ratio": "1.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "PMMLYUKFEGLCHF-JDDBBKIWSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+            "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+            "ratio": "0.5"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/d6af14307ac9a657751becf37f7c7569",
+        "overall_reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C>ClCCl.ClC=1C=C(C(=O)OO)C=CC1.C(O)([O-])=O.[Na+]>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CCC1OC1(C)CO)/C)/C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "PMMLYUKFEGLCHF-JDDBBKIWSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+            "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "264"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "NHQDETIJWKXCTC-UHFFFAOYSA-N",
+            "smiles": "ClC=1C=C(C(=O)OO)C=CC1",
+            "name": "meta-chloroperoxybenzoic acid",
+            "ratio": "1.0"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+            "smiles": "C(O)([O-])=O.[Na+]",
+            "name": "sodium hydrogen carbonate",
+            "ratio": "727"
+          },
+          {
+            "role": "product",
+            "inchiKey": "YJNFRKKGRSTGPV-BIVKKUJPSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CCC1OC1(C)CO)/C)/C",
+            "name": "(2E,6E)-9-(3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": "0.7"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/7492b8e3c3f2b9f21ea192d6b1df603c",
+        "overall_reaction_smiles": "C(C1=CC=CC=C1)(=O)Cl.C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C>C1(=CC=NC=C1)N(C)C.ClCCl.CCN(CC)CC>C(C1=CC=CC=C1)(=O)OC[C@@]1(O[C@H]1CC\\C(=C\\CC\\C(=C\\COC(C)=O)\\C)\\C)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "YJNFRKKGRSTGPV-MMROGUSUSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+            "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "catalyst",
+            "inchiKey": "VHYFNPMBLIVWCW-UHFFFAOYSA-N",
+            "smiles": "C1(=CC=NC=C1)N(C)C",
+            "name": "4-dimethylaminopyridine",
+            "ratio": "0.2"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "184"
+          },
+          {
+            "role": "base",
+            "inchiKey": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+            "smiles": "CCN(CC)CC",
+            "name": "triethylamine",
+            "ratio": "1.5"
+          },
+          {
+            "role": "building block",
+            "inchiKey": "PASDCCFISLVPSO-UHFFFAOYSA-N",
+            "smiles": "C(C1=CC=CC=C1)(=O)Cl",
+            "name": "benzoyl chloride",
+            "ratio": "1.2"
+          },
+          {
+            "role": "product",
+            "inchiKey": "UERRZRQZRJVKGA-WIRDBIQLSA-N",
+            "smiles": "C(C1=CC=CC=C1)(=O)OC[C@@]1(O[C@H]1CC\\C(=C\\CC\\C(=C\\COC(C)=O)\\C)\\C)C",
+            "name": "((2S,3S)-3-((3E,7E)-9-Acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxiran-2-yl)methyl benzoate",
+            "ratio": "0.9"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/c771722dd1fb3f306669bd9d15601987",
+        "overall_reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "YJNFRKKGRSTGPV-MMROGUSUSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+            "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "47.3"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+            "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+            "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+            "ratio": "1.2"
+          },
+          {
+            "role": "product",
+            "inchiKey": "ANMPEHXKLPXPFY-CCRXHZNCSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+            "name": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/cc23e4631d50c7edc0c349109253f70a",
+        "overall_reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C>O.C1CCCO1.CC(C)(C)O.Cl(=O)[O-].[Na+].CC(C)=CC>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "ANMPEHXKLPXPFY-CCRXHZNCSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C=O)/C)/C",
+            "name": "(2E,6E)-9-((2S,3S)-3-(oxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+            "smiles": "O",
+            "name": "water",
+            "ratio": "167"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "37.2"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "DKGAVHZHDRPRBM-UHFFFAOYSA-N",
+            "smiles": "CC(C)(C)O",
+            "name": "tert-Butyl alcohol",
+            "ratio": "2.9"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "UKLNMMHNWFDKNT-UHFFFAOYSA-M",
+            "smiles": "Cl(=O)[O-].[Na+]",
+            "name": "sodium chlorite",
+            "ratio": "2.0"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "BKOOMYPCSUNDGP-UHFFFAOYSA-N",
+            "smiles": "CC(C)=CC",
+            "name": "2-methylbut-2-ene",
+            "ratio": "10.0"
+          },
+          {
+            "role": "buffer",
+            "inchiKey": "GNSKLFRGEWLPPA-UHFFFAOYSA-M",
+            "smiles": "P(=O)(O)(O)[O-].[K+]",
+            "name": "monopotassium phosphate",
+            "ratio": "5.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "GVLPODHFXXBSOA-FCVVIDAPSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+            "name": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/d2a7624757841db6e86256f09356c828",
+        "overall_reaction_smiles": "S(=O)(=O)(OC)OC.C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C>C([O-])([O-])=O.[K+].[K+].CC(=O)C>C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+        "molecules": [
+          {
+            "role": "C1 synthon",
+            "inchiKey": "VAYGXNSJCAHWJZ-UHFFFAOYSA-N",
+            "smiles": "S(=O)(=O)(OC)OC",
+            "name": "dimethyl sulfate",
+            "ratio": "0.9"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "GVLPODHFXXBSOA-FCVVIDAPSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@]1(C)C(=O)O)/C)/C",
+            "name": "(2E,6E)-9-((2S,3S)-3-(hydroxyoxomethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "base",
+            "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+            "smiles": "C([O-])([O-])=O.[K+].[K+]",
+            "name": "potassium carbonate",
+            "ratio": "1.6"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "CSCPPACGZOOCGX-UHFFFAOYSA-N",
+            "smiles": "CC(=O)C",
+            "name": "acetone",
+            "ratio": "41.1"
+          },
+          {
+            "role": "product",
+            "inchiKey": "LEQLYZIXGNVRHQ-SUGNSRIKSA-N",
+            "smiles": "C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+            "name": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate",
+            "ratio": "0.8"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/41a703446cf2b050807560d37510b81f",
+        "overall_reaction_smiles": "C[Si](C)(C)Cl.C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C>C1CCCO1.Cl.N1=C(C=C(C=C1C)C)C.[cH-]1cccc1.[cH-]1cccc1.Cl[Ti+2]Cl.[Mn]>C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "LEQLYZIXGNVRHQ-SUGNSRIKSA-N",
+            "smiles": "C(C)(=O)OC/C=C(/CC/C=C(/CC[C@H]1[C@@](O1)(C(=O)OC)C)\\C)\\C",
+            "name": "methyl (2R,3S)-3-((3E,7E)-9-acetoxy-3,7-dimethylnona-3,7-dien-1-yl)-2-methyloxirane-2-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "69.7"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+            "smiles": "Cl",
+            "name": "hydrogen chloride",
+            "ratio": "124"
+          },
+          {
+            "role": "protective group reagent",
+            "inchiKey": "IJOOHPMOJXWVHK-UHFFFAOYSA-N",
+            "smiles": "C[Si](C)(C)Cl",
+            "name": "Trimethylsilyl chloride",
+            "ratio": "4.0"
+          },
+          {
+            "role": "non-nucleophilic base",
+            "inchiKey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
+            "smiles": "N1=C(C=C(C=C1C)C)C",
+            "name": "2,4,6-Trimethylpyridine",
+            "ratio": "7.0"
+          },
+          {
+            "role": "element",
+            "inchiKey": "PWHULOQIROXLJO-UHFFFAOYSA-N",
+            "smiles": "[Mn]",
+            "name": "manganese",
+            "ratio": "8.0"
+          },
+          {
+            "role": "catalyst",
+            "inchiKey": "XKLWATAZDMHTSH-UHFFFAOYSA-L",
+            "smiles": "[Cl-].C1(C=CC=C1)[Ti+2]C1C=CC=C1.[Cl-]",
+            "name": "bis(cyclopentadienyl)titanium chloride",
+            "ratio": "0.2"
+          },
+          {
+            "role": "product",
+            "inchiKey": "SEYMWPJVLBQZCV-FZMWSMFESA-N",
+            "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+            "name": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/4f53d9bebe89fa37f05852cc4b386e87",
+        "overall_reaction_smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C>C1(=CC=CC=C1)C.CC(C)(C#N)/N=N/C(C)(C)C#N.C(CCC)[SnH](CCCC)CCCC>C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+            "smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+            "name": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+            "smiles": "C1(=CC=CC=C1)C",
+            "name": "toluene",
+            "ratio": "77.9"
+          },
+          {
+            "role": "radical initiator",
+            "inchiKey": "OZAIFHULBGXAKX-UHFFFAOYSA-N",
+            "smiles": "CC(C)(C#N)/N=N/C(C)(C)C#N",
+            "name": "Azobisisobutyronitrile",
+            "ratio": "0.3"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "DBGVGMSCBYYSLD-UHFFFAOYSA-N",
+            "smiles": "C(CCC)[SnH](CCCC)CCCC",
+            "name": "tri-n-butyltin hydride",
+            "ratio": "3.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "LSZRHLHPFWBRPH-BURFUSLBSA-N",
+            "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+            "name": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/72f4e27f2e8a3b51ae9cd9a6493f381b",
+        "overall_reaction_smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>C(Cl)(Cl)(Cl)[H].CO[H].C([O-])([O-])=O.[K+].[K+]>OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "LSZRHLHPFWBRPH-BURFUSLBSA-N",
+            "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+            "name": "methyl (1R,4aS,5S,8aR)-5-(acetoxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "HEDRZPFGACZZDS-UHFFFAOYSA-N",
+            "smiles": "C(Cl)(Cl)(Cl)[H]",
+            "name": "chloroform",
+            "ratio": "43.8"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+            "smiles": "CO[H]",
+            "name": "methanol",
+            "ratio": "87.2"
+          },
+          {
+            "role": "base",
+            "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+            "smiles": "C([O-])([O-])=O.[K+].[K+]",
+            "name": "potassium carbonate",
+            "ratio": "1.5"
+          },
+          {
+            "role": "product",
+            "inchiKey": "KEZPZWCHOHXPOR-SJXGUFTOSA-N",
+            "smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+            "name": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "0.000963"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/09deb73e7229f9ea29e8697340dd9848",
+        "overall_reaction_smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O.C(O)([O-])=O.[Na+]>O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "KEZPZWCHOHXPOR-SJXGUFTOSA-N",
+            "smiles": "OC[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+            "name": "methyl (1R,4aS,5S,8aR)-5-(hydroxymethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "23.4"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+            "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+            "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+            "ratio": "2.2"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+            "smiles": "C(O)([O-])=O.[Na+]",
+            "name": "sodium hydrogen carbonate",
+            "ratio": null
+          },
+          {
+            "role": "product",
+            "inchiKey": "UFGYGYPNRBIUGS-SJXGUFTOSA-N",
+            "smiles": "O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+            "name": "methyl (1R,4aS,5S,8aR)-5-(oxomethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/1766d1b54f4f9eebfc426ee76556c6de",
+        "overall_reaction_smiles": "[Cl-].COC[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1.O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C>C1CCCO1.Cl.C[Si](C)(C)[N-][Si](C)(C)C.[Li+]>C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "SJFNDMHZXCUXSA-UHFFFAOYSA-M",
+            "smiles": "[Cl-].COC[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+            "name": "(methoxymethyl)triphenylphosphonium chloride",
+            "ratio": "8.0"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "UFGYGYPNRBIUGS-SJXGUFTOSA-N",
+            "smiles": "O=C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C",
+            "name": "methyl (1R,4aS,5S,8aR)-5-(oxomethyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "345"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+            "smiles": "Cl",
+            "name": "hydrogen chloride",
+            "ratio": "32.0"
+          },
+          {
+            "role": "non-nucleophilic base",
+            "inchiKey": "YNESATAKKCNGOF-UHFFFAOYSA-N",
+            "smiles": "C[Si](C)(C)[N-][Si](C)(C)C.[Li+]",
+            "name": "lithium bis(trimethylsilyl)amide",
+            "ratio": "8.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "WNBWIZVJMQGNLE-XOSAIJSUSA-N",
+            "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylene-5-(2-oxoethyl)decahydronaphthalene-1-carboxylate",
+            "ratio": "4.0"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/9b54a2465c6ce18e76f8402e546841c0",
+        "overall_reaction_smiles": "C1(=CC=CC=C1)P(=C(C=O)C)(C1=CC=CC=C1)C1=CC=CC=C1.C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC>C1(=CC=CC=C1)C>C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "VHUQEFAWBCDBSC-UHFFFAOYSA-N",
+            "smiles": "C1(=CC=CC=C1)P(=C(C=O)C)(C1=CC=CC=C1)C1=CC=CC=C1",
+            "name": "2-(triphenylphosphoranylidene)propionaldehyde",
+            "ratio": "3.0"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "WNBWIZVJMQGNLE-XOSAIJSUSA-N",
+            "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)CC=O)C)C(=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-6-methylene-5-(2-oxoethyl)decahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+            "smiles": "C1(=CC=CC=C1)C",
+            "name": "toluene",
+            "ratio": "86.5"
+          },
+          {
+            "role": "product",
+            "inchiKey": "MTXBOUHFHLZZDV-NEGMLWLESA-N",
+            "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/ed75874bf5d2a30bce3d5f54ef5aa9ac",
+        "overall_reaction_smiles": "[Br-].C[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1.C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC>CC(C)(C)[O-].[K+].C1CCCO1.[Cl-].[NH4+]>COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+        "molecules": [
+          {
+            "role": "C1 synthon",
+            "inchiKey": "LSEFCHWGJNHZNT-UHFFFAOYSA-M",
+            "smiles": "[Br-].C[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1",
+            "name": "methyltriphenylphosphonium bromide",
+            "ratio": "3.0"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "MTXBOUHFHLZZDV-NEGMLWLESA-N",
+            "smiles": "C[C@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=O)/C)C)C(=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR)-1,4a-dimethyl-5-((E)-3-methyl-4-oxobut-2-en-1-yl)-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "non-nucleophilic base",
+            "inchiKey": "LPNYRYFBWFDTMA-UHFFFAOYSA-N",
+            "smiles": "CC(C)(C)[O-].[K+]",
+            "name": "potassium tert-butoxide",
+            "ratio": "3.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "117"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+            "smiles": "[Cl-].[NH4+]",
+            "name": "ammonium chloride",
+            "ratio": "117"
+          },
+          {
+            "role": "product",
+            "inchiKey": "WYJKGKPQXWDIQP-DVYSCBIBSA-N",
+            "smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+            "name": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester",
+            "ratio": "1.0"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/97a3c4296365fd622aa65acd68218a80",
+        "overall_reaction_smiles": "C(C)(C)C=1C(=CC=C(C1OC)OC)OC>ClCCl.C1(=CC=C(C=C1)S(=O)(=O)O)C.IN1C(CCC1=O)=O.[O-]S(=O)(=S)[O-].[Na+].[Na+]>IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "NEEZBYNHICTCIO-UHFFFAOYSA-N",
+            "smiles": "C(C)(C)C=1C(=CC=C(C1OC)OC)OC",
+            "name": "3-isopropyl-2,4,5-trimethoxybenzene",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "45.4"
+          },
+          {
+            "role": "catalyst",
+            "inchiKey": "JOXIMZWYDAKGHI-UHFFFAOYSA-N",
+            "smiles": "C1(=CC=C(C=C1)S(=O)(=O)O)C",
+            "name": "p-toluenesulfonic acid",
+            "ratio": "0.2"
+          },
+          {
+            "role": "halogenation reagent",
+            "inchiKey": "LQZMLBORDGWNPD-UHFFFAOYSA-N",
+            "smiles": "IN1C(CCC1=O)=O",
+            "name": "N-iodosuccinimide",
+            "ratio": "1.2"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "AKHNMLFCWUSKQB-UHFFFAOYSA-L",
+            "smiles": "[O-]S(=O)(=S)[O-].[Na+].[Na+]",
+            "name": "sodium thiosulfate",
+            "ratio": "15.7"
+          },
+          {
+            "role": "product",
+            "inchiKey": "AXGYEDFFUSUBAJ-UHFFFAOYSA-N",
+            "smiles": "IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+            "name": "1-Iodo-3-isopropyl-2,4,5-trimethoxybenzene",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/4d28c56776eb4d94565a6ef0fe49d653",
+        "overall_reaction_smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\C=C)\\C)C.IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC>C1CCCO1.[OH-].[Na+].B1C2CCCC1CCC2.ClCCl.[Pd](Cl)Cl.C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2].C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2]>C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "OBQMMLXUILZLHS-WDIWZDMCSA-N",
+            "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\C=C)\\C)C",
+            "name": "(2S,3S)-2-((Benzyloxy)methyl)-2-methyl-3-((E)-3-methylhexa-3,5-dien-1-yl)oxirane",
+            "ratio": "1.0"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "AXGYEDFFUSUBAJ-UHFFFAOYSA-N",
+            "smiles": "IC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC",
+            "name": "1-Iodo-3-isopropyl-2,4,5-trimethoxybenzene",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "21.4"
+          },
+          {
+            "role": "base",
+            "inchiKey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+            "smiles": "[OH-].[Na+]",
+            "name": "sodium hydroxide",
+            "ratio": "55.5"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "FEJUGLKDZJDVFY-UHFFFAOYSA-N",
+            "smiles": "B1C2CCCC1CCC2",
+            "name": "9-borabicyclo[3.3.1]nonane",
+            "ratio": "1.0"
+          },
+          {
+            "role": "catalyst",
+            "inchiKey": "FMBUBIKGNRNMPX-UHFFFAOYSA-L",
+            "smiles": "ClCCl.[Pd](Cl)Cl.C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2].C1(=CC=CC=C1)P(C1=CC=CC=C1)[C-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2]",
+            "name": "bis-(diphenylphosphinoferrocene) palladium dichloride dichloromethane",
+            "ratio": "0.05"
+          },
+          {
+            "role": "product",
+            "inchiKey": "RWFBTOYROKAHHD-YIAAKALVSA-N",
+            "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+            "name": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane",
+            "ratio": "1.0"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/84bbc5faa4ecea46c820442b89eff562",
+        "overall_reaction_smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C>ClCCl.C(O)([O-])=O.[Na+].B(F)(F)F.CCOCC>C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C.C(C1=CC=CC=C1)OC[C@@]1([C@H](CCC(=C1CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)C)O)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "RWFBTOYROKAHHD-YIAAKALVSA-N",
+            "smiles": "C(C1=CC=CC=C1)OC[C@@]1(O[C@H]1CC\\C(=C\\CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)\\C)C",
+            "name": "(2S,3S)-2-((Benzyloxy)methyl)-3-((E)-6-(3-isopropyl-2,4,5-trimethoxyphenyl)-3-methylhex-3-en-1-yl)-2-methyloxirane",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "101"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+            "smiles": "C(O)([O-])=O.[Na+]",
+            "name": "sodium hydrogen carbonate",
+            "ratio": "117"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "KZMGYPLQYOPHEL-UHFFFAOYSA-N",
+            "smiles": "B(F)(F)F.CCOCC",
+            "name": "boron trifluoride diethyl etherate",
+            "ratio": "1.2"
+          },
+          {
+            "role": "product",
+            "inchiKey": "QUFUXZDMKVDCKD-HVZWOXGHSA-N",
+            "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+            "name": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+            "ratio": null
+          },
+          {
+            "role": "product",
+            "inchiKey": "WDQHZEMNMMBOLL-YZNIXAGQSA-N",
+            "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CCC(=C1CCC1=C(C(=C(C(=C1)OC)OC)C(C)C)OC)C)O)C",
+            "name": "(1S,2R)-2-((Benzyloxy)methyl)-3-(3-isopropyl-2,4,5-trimethoxyphenethyl)-2,4-dimethylcyclohex-3-en-1-ol",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/5ed4b08b7d0b7b6f82f2992f1aac9195",
+        "overall_reaction_smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C>CO[H].[Pd]C>OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "QUFUXZDMKVDCKD-HVZWOXGHSA-N",
+            "smiles": "C(C1=CC=CC=C1)OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+            "name": "(1R,2S,4aS,10aR)-1-((Benzyloxy)methyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+            "smiles": "CO[H]",
+            "name": "methanol",
+            "ratio": "180"
+          },
+          {
+            "role": "catalyst",
+            "inchiKey": "KHRHWVHIOPPTEI-UHFFFAOYSA-N",
+            "smiles": "[Pd]C",
+            "name": "palladium on carbon",
+            "ratio": "0.4"
+          },
+          {
+            "role": "product",
+            "inchiKey": "SRMOBCBSTQBMNN-QODMOLNLSA-N",
+            "smiles": "OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+            "name": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+            "ratio": "1.0"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/141a5151beaf66b8ae390745accc4838",
+        "overall_reaction_smiles": "CI.C(=S)=S.OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C>C1CCCO1.[H-].[Na+]>C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+        "molecules": [
+          {
+            "role": "C1 synthon",
+            "inchiKey": "INQOMBQAUSQDDS-UHFFFAOYSA-N",
+            "smiles": "CI",
+            "name": "methyl iodide",
+            "ratio": "8.0"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "SRMOBCBSTQBMNN-QODMOLNLSA-N",
+            "smiles": "OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)O)C",
+            "name": "(1R,2S,4aS,10aR)-1-(Hydroxymethyl)-7-isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthren-2-ol",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "107"
+          },
+          {
+            "role": "base",
+            "inchiKey": "BZKBCQXYZZXSCO-UHFFFAOYSA-N",
+            "smiles": "[H-].[Na+]",
+            "name": "sodium hydride",
+            "ratio": "4.0"
+          },
+          {
+            "role": "building block",
+            "inchiKey": "QGJOPFRUJISHPQ-UHFFFAOYSA-N",
+            "smiles": "C(=S)=S",
+            "name": "carbon disulfide",
+            "ratio": "6.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "AMCQTJCVKHYQGM-DLSXWELSSA-N",
+            "smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+            "name": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/983114d9e174bb55a57f8b228058c0e7",
+        "overall_reaction_smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC>C1(=CC=CC=C1)C.CC(C)(C#N)/N=N/C(C)(C)C#N.C(CCC)[SnH](CCCC)CCCC>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "AMCQTJCVKHYQGM-DLSXWELSSA-N",
+            "smiles": "C(OC[C@@]1([C@H](CC[C@@]2(C3=C(C(=C(C(=C3CC[C@@H]12)OC)C(C)C)OC)OC)C)OC(=S)SC)C)(=S)SC",
+            "name": "O-(((1R,2S,4aS,10aR)-7-Isopropyl-5,6,8-trimethoxy-1,4a-dimethyl-2-(((methylthio)carbonothioyl)oxy)-1,2,3,4,4a,9,10,10a-octahydrophenanthren-1-yl)methyl) S-methyl carbonodithioate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+            "smiles": "C1(=CC=CC=C1)C",
+            "name": "toluene",
+            "ratio": "72.6"
+          },
+          {
+            "role": "radical initiator",
+            "inchiKey": "OZAIFHULBGXAKX-UHFFFAOYSA-N",
+            "smiles": "CC(C)(C#N)/N=N/C(C)(C)C#N",
+            "name": "Azobisisobutyronitrile",
+            "ratio": "0.6"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "DBGVGMSCBYYSLD-UHFFFAOYSA-N",
+            "smiles": "C(CCC)[SnH](CCCC)CCCC",
+            "name": "tri-n-butyltin hydride",
+            "ratio": "6.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "XGTHJDPAKPKRKK-HJPURHCSSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+            "name": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/471090f8d0faafe3cd1302ac41de8613",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC>ClCCl.[O-2].[O-2].[O-2].[Cr+6].CC1=NNC(=C1)C>C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "XGTHJDPAKPKRKK-HJPURHCSSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3CCC2=C1OC)(C)C)C)OC)OC",
+            "name": "(4aS,10aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-1,2,3,4,4a,9,10,10a-octahydrophenanthrene",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "96.9"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "GAMDZJFZMJECOS-UHFFFAOYSA-N",
+            "smiles": "[O-2].[O-2].[O-2].[Cr+6]",
+            "name": "chromium trioxide",
+            "ratio": "10.0"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "SDXAWLJRERMRKF-UHFFFAOYSA-N",
+            "smiles": "CC1=NNC(=C1)C",
+            "name": "3,5-dimethylpyrazole",
+            "ratio": "10.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "DMYISGJMGRTXJW-PZJWPPBQSA-N",
+            "smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+            "name": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/adfd49f0eaf4709e3bc49ce9fcbf8111",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC>CC#N.C1CCC2=NCCCN2CC1.C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)N=[N+]=[N-]>[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "DMYISGJMGRTXJW-PZJWPPBQSA-N",
+            "smiles": "C(C)(C)C1=C(C=C2[C@]3(CCCC([C@@H]3CC(C2=C1)=O)(C)C)C)OC",
+            "name": "(4aS,10aS)-7-Isopropyl-6-methoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+            "smiles": "CC#N",
+            "name": "acetonitrile",
+            "ratio": "28.1"
+          },
+          {
+            "role": "non-nucleophilic base",
+            "inchiKey": "GQHTUMJGOHRCHB-UHFFFAOYSA-N",
+            "smiles": "C1CCC2=NCCCN2CC1",
+            "name": "1,8-Diazabicyclo[5.4.0]undec-7-ene",
+            "ratio": "2.5"
+          },
+          {
+            "role": "reagent",
+            "inchiKey": "NTMHWRHEGDRTPD-UHFFFAOYSA-N",
+            "smiles": "C(C)(=O)NC1=CC=C(C=C1)S(=O)(=O)N=[N+]=[N-]",
+            "name": "4-acetamidobenzenesulphonyl azide",
+            "ratio": "2.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "QHIHKMUDUKWODE-JTHBVZDNSA-N",
+            "smiles": "[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+            "name": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/8397fe3b9ac2fd44c03759eea4af82c0",
+        "overall_reaction_smiles": "C(C1=CC=CC=C1)O.[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O>N1=C(C=C(C=C1C)C)C>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "QHIHKMUDUKWODE-JTHBVZDNSA-N",
+            "smiles": "[N+](=[N-])=C1C(C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC)=O",
+            "name": "(4aS,10aS)-10-Diazo-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,10,10a-hexahydrophenanthren-9(1H)-one",
+            "ratio": "1.0"
+          },
+          {
+            "role": "non-nucleophilic base",
+            "inchiKey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
+            "smiles": "N1=C(C=C(C=C1C)C)C",
+            "name": "2,4,6-Trimethylpyridine",
+            "ratio": "5.0"
+          },
+          {
+            "role": "building block",
+            "inchiKey": "WVDDGKGOMKODPV-UHFFFAOYSA-N",
+            "smiles": "C(C1=CC=CC=C1)O",
+            "name": "benzyl alcohol",
+            "ratio": "5.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "COEYIZSQUDOELR-GJPZQIGFSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+            "name": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/14e1de795379c2c2324c30a0b101d950",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC>ClCCl.ClC=1C=C(C(=O)OO)C=CC1.C(O)([O-])=O.[Na+]>C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "SAHNXPRYBKFTTP-ZQQNNKCXSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+            "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "75.2"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "NHQDETIJWKXCTC-UHFFFAOYSA-N",
+            "smiles": "ClC=1C=C(C(=O)OO)C=CC1",
+            "name": "meta-chloroperoxybenzoic acid",
+            "ratio": "1.5"
+          },
+          {
+            "role": "base",
+            "inchiKey": "UIIMBOGNXHQVGW-UHFFFAOYSA-M",
+            "smiles": "C(O)([O-])=O.[Na+]",
+            "name": "sodium hydrogen carbonate",
+            "ratio": "2.5"
+          },
+          {
+            "role": "product",
+            "inchiKey": "FAVOOEKSBZPIAI-UNWVZKJWSA-N",
+            "smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+            "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/35ac874a63d20a10ac3cf02ed2391dad",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC>CC#N.O.[N+](=O)([O-])[O-].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]>O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "WWIHHHVBUQCFIY-QGCDCVKKSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+            "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+            "smiles": "CC#N",
+            "name": "acetonitrile",
+            "ratio": "162"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+            "smiles": "O",
+            "name": "water",
+            "ratio": "469"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "PCCNIENXBRUYFK-UHFFFAOYSA-O",
+            "smiles": "[N+](=O)([O-])[O-].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]",
+            "name": "ceric ammonium nitrate",
+            "ratio": "5.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "GRNLKMLJKTZAJE-MOXGXCLJSA-N",
+            "smiles": "O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+            "name": "(4bS,8aS,9S)-9-Hydroxy-2-isopropyl-3-methoxy-4b,8,8-trimethyl-5,6,7,8,8a,9-hexahydro-1H-fluorene-1,4(4bH)-dione",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/387df8a576d39a725b42bfce9cac05ae",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3([C@H]([C@H]3C(CCC[C@]23C)(C)C)O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "JAWWROOINJJJKO-CYCRWPGJSA-N",
+            "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3([C@H]([C@H]3C(CCC[C@]23C)(C)C)O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR,9S)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9-hydroxy-10,13-dioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "244"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+            "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+            "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+            "ratio": "1.2"
+          },
+          {
+            "role": "product",
+            "inchiKey": "LQTPFQZFQDEQHS-ITICNZIISA-N",
+            "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/11020db16d8305594a927da27efd0b29",
+        "overall_reaction_smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C.O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C>ClCCl.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.[Eu]>C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "WYJKGKPQXWDIQP-DVYSCBIBSA-N",
+            "smiles": "COC(=O)[C@@]1(CCC[C@@]2([C@H](C(CC[C@@H]12)=C)C\\C=C(\\C=C)/C)C)C",
+            "name": "(1R,4aR,5S,8aR)-1,4a-Dimethyl-6-methylene-5-[(2E)-3-methyl-2,4-pentadien-1-yl]decahydro-1-naphthalenecarboxylic acid methyl ester",
+            "ratio": "1.1"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "GRNLKMLJKTZAJE-MOXGXCLJSA-N",
+            "smiles": "O[C@H]1[C@H]2C(CCC[C@@]2(C=2C(C(=C(C(C12)=O)C(C)C)OC)=O)C)(C)C",
+            "name": "(4bS,8aS,9S)-9-Hydroxy-2-isopropyl-3-methoxy-4b,8,8-trimethyl-5,6,7,8,8a,9-hexahydro-1H-fluorene-1,4(4bH)-dione",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "120"
+          },
+          {
+            "role": "Lewis acid",
+            "inchiKey": "IVLFZIQZPTZTBW-UHFFFAOYSA-N",
+            "smiles": "FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.FC(C(C(C(CC(C(C)(C)C)=O)=O)(F)F)(F)F)(F)F.[Eu]",
+            "name": "europium Tris(1,1,1,2,2,3,3-heptafluoro-7,7-dimethyl-4,6-octanedione)",
+            "ratio": "0.2"
+          },
+          {
+            "role": "product",
+            "inchiKey": "LQTPFQZFQDEQHS-ITICNZIISA-N",
+            "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "0.7"
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/cc10a9e997898a29d7d2c54f9dbf52b4",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC>[Cl-].[NH4+].N1=C(C=C(C=C1C)C)C.[I-].[Li+]>OC=1C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C(C1C(C)C)=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)O)C)C)C)=O",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "LQTPFQZFQDEQHS-ITICNZIISA-N",
+            "smiles": "C(C)(C)C1=C(C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C1=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)OC)C)C)C)=O)OC",
+            "name": "methyl (1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-11-isopropyl-12-methoxy-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+            "smiles": "[Cl-].[NH4+]",
+            "name": "ammonium chloride",
+            "ratio": "3550"
+          },
+          {
+            "role": "non-nucleophilic base",
+            "inchiKey": "BWZVCCNYKMEVEX-UHFFFAOYSA-N",
+            "smiles": "N1=C(C=C(C=C1C)C)C",
+            "name": "2,4,6-Trimethylpyridine",
+            "ratio": "619"
+          },
+          {
+            "role": "catalyst",
+            "inchiKey": "HSZCZNFXUDYRKD-UHFFFAOYSA-M",
+            "smiles": "[I-].[Li+]",
+            "name": "lithium iodide",
+            "ratio": "10.0"
+          },
+          {
+            "role": "product",
+            "inchiKey": "FNSGLWUVLMTZLD-QJPJWCLSSA-N",
+            "smiles": "OC=1C([C@]23CC=C([C@H]([C@@]3(C([C@H]3C(CCC[C@]23C)(C)C)=O)C(C1C(C)C)=O)C[C@@H]1[C@]2(CCC[C@]([C@@H]2CCC1=C)(C(=O)O)C)C)C)=O",
+            "name": "(1R,4aR,5S,8aR)-5-(((1R,4aR,4bS,8aS,9aR)-12-hydroxy-11-isopropyl-2,4b,8,8-tetramethyl-9,10,13-trioxo-1,4,4b,5,7,8,8a,9-octahydro-6H-4a,9a-but[2]enofluoren-1-yl)methyl)-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylic acid",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/f60676b87fb3fb15cb93c2260301e683",
+        "overall_reaction_smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C>ClCCl.[OH-].[Na+].C(C)(C)(C)OO.CC([O-])C.[Ti+4].CC([O-])C.CC([O-])C.CC([O-])C.O[C@@H](C(=O)OCC)[C@@H](C(=O)OCC)O>C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "PMMLYUKFEGLCHF-JDDBBKIWSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC\\C=C(\\CO)/C)/C)/C",
+            "name": "(2E,6E,10E)-12-Hydroxy-3,7,11-trimethyldodeca-2,6,10-trien-1-yl acetate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "4.0"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+            "smiles": "[OH-].[Na+]",
+            "name": "sodium hydroxide",
+            "ratio": "75.3"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "CIHOLLKRGTVIJN-UHFFFAOYSA-N",
+            "smiles": "C(C)(C)(C)OO",
+            "name": "tert-butyl hydroperoxide",
+            "ratio": "2.0"
+          },
+          {
+            "role": "Lewis acid",
+            "inchiKey": "VXUYXOFXAQZZMF-UHFFFAOYSA-N",
+            "smiles": "CC([O-])C.[Ti+4].CC([O-])C.CC([O-])C.CC([O-])C",
+            "name": "Titanium isopropoxide",
+            "ratio": "0.3"
+          },
+          {
+            "role": "desiccant",
+            "inchiKey": null,
+            "smiles": "*4A molsieves",
+            "name": "4A molsieves",
+            "ratio": null
+          },
+          {
+            "role": "ligand",
+            "inchiKey": "YSAVZVORKRDODB-OLQVQODUSA-N",
+            "smiles": "O[C@@H](C(=O)OCC)[C@@H](C(=O)OCC)O",
+            "name": "Diethyl (2R,3S)-2,3-dihydroxysuccinate",
+            "ratio": "0.10"
+          },
+          {
+            "role": "product",
+            "inchiKey": "YJNFRKKGRSTGPV-MMROGUSUSA-N",
+            "smiles": "C(C)(=O)OC\\C=C(\\CC\\C=C(\\CC[C@@H]1O[C@@]1(C)CO)/C)/C",
+            "name": "(2E,6E)-9-((2S,3S)-3-(Hydroxymethyl)-3-methyloxiran-2-yl)-3,7-dimethylnona-2,6-dien-1-yl acetate",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/a7b0495c238337a66893d82eb3f9d73d",
+        "overall_reaction_smiles": "CI.C(=S)=S.C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C>C1CCCO1.[H-].[Na+].[Cl-].[NH4+]>C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+        "molecules": [
+          {
+            "role": "C1 synthon",
+            "inchiKey": "INQOMBQAUSQDDS-UHFFFAOYSA-N",
+            "smiles": "CI",
+            "name": "methyl iodide",
+            "ratio": "4.0"
+          },
+          {
+            "role": "reactant",
+            "inchiKey": "SEYMWPJVLBQZCV-FZMWSMFESA-N",
+            "smiles": "C(C)(=O)OC[C@@H]1[C@]2(CC[C@@H]([C@]([C@@H]2CCC1=C)(C(=O)OC)C)O)C",
+            "name": "methyl (1S,2S,4aS,5S,8aR)-5-(acetoxymethyl)-2-hydroxy-1,4a-dimethyl-6-methylenedecahydronaphthalene-1-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "102"
+          },
+          {
+            "role": "base",
+            "inchiKey": "BZKBCQXYZZXSCO-UHFFFAOYSA-N",
+            "smiles": "[H-].[Na+]",
+            "name": "sodium hydride",
+            "ratio": "1.1"
+          },
+          {
+            "role": "quench",
+            "inchiKey": "NLXLAEXVIDQMFP-UHFFFAOYSA-N",
+            "smiles": "[Cl-].[NH4+]",
+            "name": "ammonium chloride",
+            "ratio": "234"
+          },
+          {
+            "role": "building block",
+            "inchiKey": "QGJOPFRUJISHPQ-UHFFFAOYSA-N",
+            "smiles": "C(=S)=S",
+            "name": "carbon disulfide",
+            "ratio": "2.1"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "404",
+            "smiles": "*mineral oil",
+            "name": "mineral oil",
+            "ratio": null
+          },
+          {
+            "role": "product",
+            "inchiKey": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+            "smiles": "C(C)(=O)OC[C@@H]2[C@]1(CC[C@@H]([C@]([C@@H]1CCC2=C)(C(=O)[O-])C)OC(=S)S[Na])C",
+            "name": "WWARLXVILQHNCE-GDLXNQLUSA-L",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/84fdb7aa5444134e1188cd0cd2b391d9",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC>C1CCCO1.[H-].[Al+3].[Li+].[H-].[H-].[H-]>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "COEYIZSQUDOELR-GJPZQIGFSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C(=O)OCC1=CC=CC=C1)(C)C)C)OC)OC",
+            "name": "Benzyl (4aS,9S,9aS)-7-isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carboxylate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "WYURNTSHIVDZCO-UHFFFAOYSA-N",
+            "smiles": "C1CCCO1",
+            "name": "tetrahydrofuran",
+            "ratio": "85.2"
+          },
+          {
+            "role": "reducing agent",
+            "inchiKey": "BJKLPLABXHXMIM-UHFFFAOYSA-N",
+            "smiles": "[H-].[Al+3].[Li+].[H-].[H-].[H-]",
+            "name": "lithium aluminum hydride",
+            "ratio": "2.5"
+          },
+          {
+            "role": "product",
+            "inchiKey": "DFZSTDHGQCBPBV-ZQQNNKCXSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+            "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/d4ead019feed7366aabaee1889dc682c",
+        "overall_reaction_smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC>ClCCl.C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "DFZSTDHGQCBPBV-ZQQNNKCXSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)CO)(C)C)C)OC)OC",
+            "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-yl)methanol",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "YMWUJEATGCHHMB-UHFFFAOYSA-N",
+            "smiles": "ClCCl",
+            "name": "dichloromethane",
+            "ratio": "62.3"
+          },
+          {
+            "role": "oxidizing agent",
+            "inchiKey": "NKLCNNUWBJBICK-UHFFFAOYSA-N",
+            "smiles": "C(C)(=O)OI1(OC(C2=C1C=CC=C2)=O)(OC(C)=O)OC(C)=O",
+            "name": "3-Oxo-1,3-dihydro-1λ5,2-benziodoxole-1,1,1-triyl triacetate",
+            "ratio": "1.2"
+          },
+          {
+            "role": "product",
+            "inchiKey": "SAHNXPRYBKFTTP-ZQQNNKCXSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)C=O)(C)C)C)OC)OC",
+            "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-carbaldehyde",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "details_url": "https://kmt.vander-lingen.nl/data/reaction/profile/9811687a8ec7e73ffbcd2832114cc666",
+        "overall_reaction_smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC>C(Cl)(Cl)(Cl)[H].CO[H].C([O-])([O-])=O.[K+].[K+]>C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+        "molecules": [
+          {
+            "role": "reactant",
+            "inchiKey": "FAVOOEKSBZPIAI-UNWVZKJWSA-N",
+            "smiles": "C(=O)O[C@@H]1C2=C(C(=C(C(=C2[C@]2(CCCC([C@H]12)(C)C)C)OC)OC)C(C)C)OC",
+            "name": "((4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluorene-9-yl) formate",
+            "ratio": "1.0"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "HEDRZPFGACZZDS-UHFFFAOYSA-N",
+            "smiles": "C(Cl)(Cl)(Cl)[H]",
+            "name": "chloroform",
+            "ratio": "29.8"
+          },
+          {
+            "role": "solvent",
+            "inchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+            "smiles": "CO[H]",
+            "name": "methanol",
+            "ratio": "59.3"
+          },
+          {
+            "role": "base",
+            "inchiKey": "BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+            "smiles": "C([O-])([O-])=O.[K+].[K+]",
+            "name": "potassium carbonate",
+            "ratio": "1.5"
+          },
+          {
+            "role": "product",
+            "inchiKey": "WWIHHHVBUQCFIY-QGCDCVKKSA-N",
+            "smiles": "C(C)(C)C1=C(C(=C2[C@]3(CCCC([C@@H]3[C@@H](C2=C1OC)O)(C)C)C)OC)OC",
+            "name": "(4aS,9S,9aS)-7-Isopropyl-5,6,8-trimethoxy-1,1,4a-trimethyl-2,3,4,4a,9,9a-hexahydro-1H-fluoren-9-ol",
+            "ratio": null
+          }
+        ]
+      }
+    ],
+    "error": null
+  }
+]
